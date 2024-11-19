@@ -32,7 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="20"
-            android:text="Button1" />
+            android:text="Button1"
+            android:onClick="onClickBtn1"/>
 
         <Space
             android:layout_height="0dp"
@@ -45,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="20"
-            android:text="Button" />
+            android:text="Button2" />
 
         <Space
             android:layout_height="0dp"
@@ -58,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="20"
-            android:text="Button" />
+            android:text="Button3" />
 
         <Space
             android:layout_height="0dp"
@@ -71,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="20"
-            android:text="Button" />
+            android:text="Button4" />
 
         <Space
             android:layout_height="0dp"
