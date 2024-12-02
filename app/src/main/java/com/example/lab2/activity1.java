@@ -18,4 +18,19 @@ public class activity1 extends AppCompatActivity {
         Intent intent = new Intent(this, activity2.class);
         startActivity(intent);
     }
+
+    public void onClickBtn2(View view) {
+        Intent intent = new Intent(this, activity3.class);
+        startActivity(intent);
+    }
+
+    public void onClickBtn3(View view) {
+        Intent intent = new Intent(this, activity4.class);
+        startActivity(intent);
+    }
+
+    public void OnClickBtn4(View view) {
+        finishAffinity();
+    }
+
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp">
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="208dp"
+        android:text="Left 50%"/>
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="208dp"
+        android:layout_marginRight="5dp"
+        android:text="Right 50%" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="5dp"
+        android:text="Center" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button33"
+        android:text="Center left" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button33"
+        android:text="Center right" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom"
+        android:layout_marginHorizontal="5dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

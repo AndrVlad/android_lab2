@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingTop="30dp">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -78,6 +79,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
+            android:layout_marginHorizontal="5dp"
             android:text="Btn6"
             />
 
@@ -86,6 +88,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
+            android:layout_marginHorizontal="5dp"
             android:text="Btn7"
             />
 
@@ -95,6 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Button8"
+            android:layout_marginHorizontal="5dp"
             />
 
     </LinearLayout>
